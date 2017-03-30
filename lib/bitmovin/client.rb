@@ -16,8 +16,8 @@ module Bitmovin
         faraday.request :json
         #faraday.response :logger
         faraday.adapter :httpclient do |client| # yields HTTPClient
-          client.keep_alive_timeout = 90
-          client.ssl_config.timeout = 90
+          client.keep_alive_timeout = 300
+          client.ssl_config.timeout = 300
         end
         faraday.response :raise_error
       end
