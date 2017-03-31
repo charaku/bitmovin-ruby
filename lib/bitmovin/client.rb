@@ -2,13 +2,14 @@ module Bitmovin
   class Client
     attr_accessor :api_key
     attr_accessor :base_url
+    attr_accessor :client_logger
 
     def initialize(config)
       @api_key = config[:api_key]
       @base_url = "https://api.bitmovin.com/v1"
 
-      client_logger = Logger.new("log/bitmovin-client.log")
-      client_logger.level = Logger::DEBUG
+      @client_logger = Logger.new("log/bitmovin-client.log")
+      @client_logger.level = Logger::DEBUG
 
       @conn = Faraday.new(url: @base_url, headers: {
           'X-Api-Key' => @api_key,
@@ -19,7 +20,7 @@ module Bitmovin
 
         faraday.request :json
         # faraday.response :logger
-        faraday.response :detailed_logger, client_logger
+        faraday.response :detailed_logger, @client_logger
         faraday.adapter :httpclient do |client| # yields HTTPClient
           client.keep_alive_timeout = 90
           client.ssl_config.timeout = 90

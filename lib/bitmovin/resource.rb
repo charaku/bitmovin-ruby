@@ -34,12 +34,18 @@ module Bitmovin
         raise BitmovinError.new(self), "Cannot save already persisted resource"
       end
 
+      Bitmovin.client.client_logger.debug "path: #{self.class.resource_path}"
+      Bitmovin.client.client_logger.debug "body: #{collect_attributes.inspect}"
+
       response = Bitmovin.client.post do |post|
         post.url self.class.resource_path
         post.body = collect_attributes
       end
       yield(response.body) if block_given?
       init_from_hash(result(response))
+
+      Bitmovin.client.client_logger.debug "response: #{init_from_hash(result(response)).inspect}"
+
       self
     end
 
