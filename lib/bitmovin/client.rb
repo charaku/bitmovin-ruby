@@ -7,7 +7,7 @@ module Bitmovin
       @api_key = config[:api_key]
       @base_url = "https://api.bitmovin.com/v1"
 
-      client_logger = Logger.new("bitmovin-client.log")
+      client_logger = Logger.new("log/bitmovin-client.log")
       client_logger.level = Logger::DEBUG
 
       @conn = Faraday.new(url: @base_url, headers: {

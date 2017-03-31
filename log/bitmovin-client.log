@@ -1,0 +1,1025 @@
+# Logfile created on 2017-03-31 15:38:41 +0800 by logger.rb/56438
+I, [2017-03-31T15:38:41.253543 #82432]  INFO -- : GET https://api.bitmovin.com/v1/account/information
+D, [2017-03-31T15:38:41.253642 #82432] DEBUG -- : "X-Api-Key: test\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.265832 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.265876 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.267284 #82432]  INFO -- : GET https://api.bitmovin.com/v1/account/information
+D, [2017-03-31T15:38:41.267323 #82432] DEBUG -- : "X-Api-Key: test\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.277544 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.277591 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.279402 #82432]  INFO -- : GET https://api.bitmovin.com/v1/account/information
+D, [2017-03-31T15:38:41.279496 #82432] DEBUG -- : "X-Api-Key: test\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.291295 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.291342 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.293460 #82432]  INFO -- : GET https://api.bitmovin.com/v1/account/information?foo=bar
+D, [2017-03-31T15:38:41.293499 #82432] DEBUG -- : "X-Api-Key: test\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.304636 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.304751 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.306401 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/account/information
+D, [2017-03-31T15:38:41.306439 #82432] DEBUG -- : "X-Api-Key: test\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.316889 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.316943 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.318377 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/account/information
+D, [2017-03-31T15:38:41.318417 #82432] DEBUG -- : "X-Api-Key: test\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.328079 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.328113 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.329263 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/account/information
+D, [2017-03-31T15:38:41.329304 #82432] DEBUG -- : "X-Api-Key: test\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.339722 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.339759 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.348096 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/audio/aac?limit=100&offset=0
+D, [2017-03-31T15:38:41.348175 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.362766 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.362837 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"cc315451-b74e-4880-a7d6-d9b885b770a6\",\"description\":\"test aac\",\"bitrate\":128000,\"rate\":48000,\"channelLayout\":\"NONE\",\"volumeAdjust\":100,\"normalize\":false}]}}}"
+I, [2017-03-31T15:38:41.365086 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/audio/aac?limit=100&offset=0
+D, [2017-03-31T15:38:41.365158 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.367164 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.367214 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"cc315451-b74e-4880-a7d6-d9b885b770a6\",\"description\":\"test aac\",\"bitrate\":128000,\"rate\":48000,\"channelLayout\":\"NONE\",\"volumeAdjust\":100,\"normalize\":false}]}}}"
+I, [2017-03-31T15:38:41.370434 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/audio/aac/cc315451-b74e-4880-a7d6-d9b885b770a6
+D, [2017-03-31T15:38:41.370524 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.374825 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.374876 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"cc315451-b74e-4880-a7d6-d9b885b770a6\",\"description\":\"test aac\",\"bitrate\":128000,\"rate\":48000,\"channelLayout\":\"NONE\",\"volumeAdjust\":100,\"normalize\":false}}}"
+I, [2017-03-31T15:38:41.376730 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/audio/aac/cc315451-b74e-4880-a7d6-d9b885b770a6
+D, [2017-03-31T15:38:41.376783 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.378375 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.378414 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"cc315451-b74e-4880-a7d6-d9b885b770a6\",\"description\":\"test aac\",\"bitrate\":128000,\"rate\":48000,\"channelLayout\":\"NONE\",\"volumeAdjust\":100,\"normalize\":false}}}"
+I, [2017-03-31T15:38:41.379318 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/audio/aac/cc315451-b74e-4880-a7d6-d9b885b770a6
+D, [2017-03-31T15:38:41.379369 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.380915 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.380954 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"cc315451-b74e-4880-a7d6-d9b885b770a6\",\"description\":\"test aac\",\"bitrate\":128000,\"rate\":48000,\"channelLayout\":\"NONE\",\"volumeAdjust\":100,\"normalize\":false}}}"
+I, [2017-03-31T15:38:41.390307 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/configurations/audio/aac/cc315451-b74e-4880-a7d6-d9b885b770a6
+D, [2017-03-31T15:38:41.390384 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.392505 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.392564 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.395826 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/audio/aac
+D, [2017-03-31T15:38:41.395940 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"description\":\"test aac\",\"bitrate\":128000,\"rate\":48000,\"channelLayout\":\"NONE\",\"volumeAdjust\":100,\"normalize\":false}"
+I, [2017-03-31T15:38:41.399930 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.400040 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.402825 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/audio/aac
+D, [2017-03-31T15:38:41.402921 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"description\":\"test aac\",\"bitrate\":128000,\"rate\":48000,\"channelLayout\":\"NONE\",\"volumeAdjust\":100,\"normalize\":false}"
+I, [2017-03-31T15:38:41.405223 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.405289 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.407897 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/audio/aac
+D, [2017-03-31T15:38:41.408020 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"description\":\"test aac\",\"bitrate\":128000,\"rate\":48000,\"channelLayout\":\"NONE\",\"volumeAdjust\":100,\"normalize\":false}"
+I, [2017-03-31T15:38:41.410002 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.410083 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.413275 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/h264?limit=100&offset=0
+D, [2017-03-31T15:38:41.413352 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.430422 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.430498 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"h264\",\"id\":\"305c016d0465cb67e683cb246b285af6\",\"name\":\"test\",\"description\":\"desc\",\"width\":\"100\",\"height\":\"200\",\"bitrate\":\"100000\",\"rate\":\"23.97\",\"profile\":\"BASELINE\",\"bframes\":\"3\",\"refFrames\":\"5\",\"qpMin\":\"0\",\"qpMax\":\"69\",\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":\"16\",\"cabac\":\"true\",\"maxBitrate\":\"0\",\"minBitrate\":\"0\",\"bufsize\":\"0\",\"minGop\":\"0\",\"maxGop\":\"0\",\"level\":\"1b\",\"bAdaptiveStrategy\":\"FAST\",\"motionEstimationMethod\":\"HEX\",\"rcLookAhead\":\"50\",\"subMe\":\"FULLPEL\",\"trellis\":\"DISABLED\",\"partitions\":[\"P8X8\",\"P4X4\"],\"slices\":\"1\",\"interlaceMode\":\"NONE\"}]}}}"
+I, [2017-03-31T15:38:41.432009 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/h264?limit=100&offset=0
+D, [2017-03-31T15:38:41.432085 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.433757 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.433807 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"h264\",\"id\":\"305c016d0465cb67e683cb246b285af6\",\"name\":\"test\",\"description\":\"desc\",\"width\":\"100\",\"height\":\"200\",\"bitrate\":\"100000\",\"rate\":\"23.97\",\"profile\":\"BASELINE\",\"bframes\":\"3\",\"refFrames\":\"5\",\"qpMin\":\"0\",\"qpMax\":\"69\",\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":\"16\",\"cabac\":\"true\",\"maxBitrate\":\"0\",\"minBitrate\":\"0\",\"bufsize\":\"0\",\"minGop\":\"0\",\"maxGop\":\"0\",\"level\":\"1b\",\"bAdaptiveStrategy\":\"FAST\",\"motionEstimationMethod\":\"HEX\",\"rcLookAhead\":\"50\",\"subMe\":\"FULLPEL\",\"trellis\":\"DISABLED\",\"partitions\":[\"P8X8\",\"P4X4\"],\"slices\":\"1\",\"interlaceMode\":\"NONE\"}]}}}"
+I, [2017-03-31T15:38:41.435100 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/h264/305c016d0465cb67e683cb246b285af6
+D, [2017-03-31T15:38:41.435171 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.438568 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.438638 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"type\":\"h264\",\"id\":\"305c016d0465cb67e683cb246b285af6\",\"name\":\"test\",\"description\":\"desc\",\"width\":\"100\",\"height\":\"200\",\"bitrate\":\"100000\",\"rate\":\"23.97\",\"profile\":\"BASELINE\",\"bframes\":\"3\",\"refFrames\":\"5\",\"qpMin\":\"0\",\"qpMax\":\"69\",\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":\"16\",\"cabac\":\"true\",\"maxBitrate\":\"0\",\"minBitrate\":\"0\",\"bufsize\":\"0\",\"minGop\":\"0\",\"maxGop\":\"0\",\"level\":\"1b\",\"bAdaptiveStrategy\":\"FAST\",\"motionEstimationMethod\":\"HEX\",\"rcLookAhead\":\"50\",\"subMe\":\"FULLPEL\",\"trellis\":\"DISABLED\",\"partitions\":[\"P8X8\",\"P4X4\"],\"slices\":\"1\",\"interlaceMode\":\"NONE\"}}}"
+I, [2017-03-31T15:38:41.440980 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/h264/305c016d0465cb67e683cb246b285af6
+D, [2017-03-31T15:38:41.441046 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.442746 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.442806 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"type\":\"h264\",\"id\":\"305c016d0465cb67e683cb246b285af6\",\"name\":\"test\",\"description\":\"desc\",\"width\":\"100\",\"height\":\"200\",\"bitrate\":\"100000\",\"rate\":\"23.97\",\"profile\":\"BASELINE\",\"bframes\":\"3\",\"refFrames\":\"5\",\"qpMin\":\"0\",\"qpMax\":\"69\",\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":\"16\",\"cabac\":\"true\",\"maxBitrate\":\"0\",\"minBitrate\":\"0\",\"bufsize\":\"0\",\"minGop\":\"0\",\"maxGop\":\"0\",\"level\":\"1b\",\"bAdaptiveStrategy\":\"FAST\",\"motionEstimationMethod\":\"HEX\",\"rcLookAhead\":\"50\",\"subMe\":\"FULLPEL\",\"trellis\":\"DISABLED\",\"partitions\":[\"P8X8\",\"P4X4\"],\"slices\":\"1\",\"interlaceMode\":\"NONE\"}}}"
+I, [2017-03-31T15:38:41.444414 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/h264/305c016d0465cb67e683cb246b285af6
+D, [2017-03-31T15:38:41.444463 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.446089 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.446145 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"type\":\"h264\",\"id\":\"305c016d0465cb67e683cb246b285af6\",\"name\":\"test\",\"description\":\"desc\",\"width\":\"100\",\"height\":\"200\",\"bitrate\":\"100000\",\"rate\":\"23.97\",\"profile\":\"BASELINE\",\"bframes\":\"3\",\"refFrames\":\"5\",\"qpMin\":\"0\",\"qpMax\":\"69\",\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":\"16\",\"cabac\":\"true\",\"maxBitrate\":\"0\",\"minBitrate\":\"0\",\"bufsize\":\"0\",\"minGop\":\"0\",\"maxGop\":\"0\",\"level\":\"1b\",\"bAdaptiveStrategy\":\"FAST\",\"motionEstimationMethod\":\"HEX\",\"rcLookAhead\":\"50\",\"subMe\":\"FULLPEL\",\"trellis\":\"DISABLED\",\"partitions\":[\"P8X8\",\"P4X4\"],\"slices\":\"1\",\"interlaceMode\":\"NONE\"}}}"
+I, [2017-03-31T15:38:41.449475 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/configurations/video/h264/305c016d0465cb67e683cb246b285af6
+D, [2017-03-31T15:38:41.449563 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.451340 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.451377 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.454254 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/video/h264
+D, [2017-03-31T15:38:41.454325 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"type\":\"h264\",\"name\":\"test\",\"description\":\"desc\",\"width\":\"100\",\"height\":\"200\",\"bitrate\":\"100000\",\"rate\":\"23.97\",\"profile\":\"BASELINE\",\"bframes\":\"3\",\"refFrames\":\"5\",\"qpMin\":\"0\",\"qpMax\":\"69\",\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":\"16\",\"cabac\":\"true\",\"maxBitrate\":\"0\",\"minBitrate\":\"0\",\"bufsize\":\"0\",\"minGop\":\"0\",\"maxGop\":\"0\",\"level\":\"1b\",\"bAdaptiveStrategy\":\"FAST\",\"motionEstimationMethod\":\"HEX\",\"rcLookAhead\":\"50\",\"subMe\":\"FULLPEL\",\"trellis\":\"DISABLED\",\"partitions\":[\"P8X8\",\"P4X4\"],\"slices\":\"1\",\"interlaceMode\":\"NONE\"}"
+I, [2017-03-31T15:38:41.457201 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.457244 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.459967 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/video/h264
+D, [2017-03-31T15:38:41.460034 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"type\":\"h264\",\"name\":\"test\",\"description\":\"desc\",\"width\":\"100\",\"height\":\"200\",\"bitrate\":\"100000\",\"rate\":\"23.97\",\"profile\":\"BASELINE\",\"bframes\":\"3\",\"refFrames\":\"5\",\"qpMin\":\"0\",\"qpMax\":\"69\",\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":\"16\",\"cabac\":\"true\",\"maxBitrate\":\"0\",\"minBitrate\":\"0\",\"bufsize\":\"0\",\"minGop\":\"0\",\"maxGop\":\"0\",\"level\":\"1b\",\"bAdaptiveStrategy\":\"FAST\",\"motionEstimationMethod\":\"HEX\",\"rcLookAhead\":\"50\",\"subMe\":\"FULLPEL\",\"trellis\":\"DISABLED\",\"partitions\":[\"P8X8\",\"P4X4\"],\"slices\":\"1\",\"interlaceMode\":\"NONE\"}"
+I, [2017-03-31T15:38:41.461495 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.461531 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.464135 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/video/h264
+D, [2017-03-31T15:38:41.464197 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"type\":\"h264\",\"name\":\"test\",\"description\":\"desc\",\"width\":\"100\",\"height\":\"200\",\"bitrate\":\"100000\",\"rate\":\"23.97\",\"profile\":\"BASELINE\",\"bframes\":\"3\",\"refFrames\":\"5\",\"qpMin\":\"0\",\"qpMax\":\"69\",\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":\"16\",\"cabac\":\"true\",\"maxBitrate\":\"0\",\"minBitrate\":\"0\",\"bufsize\":\"0\",\"minGop\":\"0\",\"maxGop\":\"0\",\"level\":\"1b\",\"bAdaptiveStrategy\":\"FAST\",\"motionEstimationMethod\":\"HEX\",\"rcLookAhead\":\"50\",\"subMe\":\"FULLPEL\",\"trellis\":\"DISABLED\",\"partitions\":[\"P8X8\",\"P4X4\"],\"slices\":\"1\",\"interlaceMode\":\"NONE\"}"
+I, [2017-03-31T15:38:41.465593 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.465628 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.473868 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/h265?limit=100&offset=0
+D, [2017-03-31T15:38:41.473942 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.490884 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.490975 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"ac739e5d-4dd9-4512-ae97-9541b4f83237\",\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"profile\":\"main\",\"bframes\":3,\"refFrames\":5,\"qp\":0,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0,\"minGop\":0,\"maxGop\":250,\"level\":\"0\",\"rcLookahead\":20,\"bAdapt\":\"FULL\",\"maxCTUSize\":\"64\",\"tuIntraDepth\":\"1\",\"tuInterDepth\":\"1\",\"motionSearch\":\"HEX\",\"subMe\":2,\"motionSearchRange\":57,\"weightPredictionOnPSlice\":true,\"weightPredictionOnBSlice\":false,\"sao\":false}]}}}"
+I, [2017-03-31T15:38:41.493015 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/h265?limit=100&offset=0
+D, [2017-03-31T15:38:41.493105 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.495579 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.495727 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"ac739e5d-4dd9-4512-ae97-9541b4f83237\",\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"profile\":\"main\",\"bframes\":3,\"refFrames\":5,\"qp\":0,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0,\"minGop\":0,\"maxGop\":250,\"level\":\"0\",\"rcLookahead\":20,\"bAdapt\":\"FULL\",\"maxCTUSize\":\"64\",\"tuIntraDepth\":\"1\",\"tuInterDepth\":\"1\",\"motionSearch\":\"HEX\",\"subMe\":2,\"motionSearchRange\":57,\"weightPredictionOnPSlice\":true,\"weightPredictionOnBSlice\":false,\"sao\":false}]}}}"
+I, [2017-03-31T15:38:41.497881 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/h265/ac739e5d-4dd9-4512-ae97-9541b4f83237
+D, [2017-03-31T15:38:41.497967 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.502612 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.502736 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"ac739e5d-4dd9-4512-ae97-9541b4f83237\",\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"profile\":\"main\",\"bframes\":3,\"refFrames\":5,\"qp\":0,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0,\"minGop\":0,\"maxGop\":250,\"level\":\"0\",\"rcLookahead\":20,\"bAdapt\":\"FULL\",\"maxCTUSize\":\"64\",\"tuIntraDepth\":\"1\",\"tuInterDepth\":\"1\",\"motionSearch\":\"HEX\",\"subMe\":2,\"motionSearchRange\":57,\"weightPredictionOnPSlice\":true,\"weightPredictionOnBSlice\":false,\"sao\":false}}}"
+I, [2017-03-31T15:38:41.505781 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/h265/ac739e5d-4dd9-4512-ae97-9541b4f83237
+D, [2017-03-31T15:38:41.505852 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.508370 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.508442 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"ac739e5d-4dd9-4512-ae97-9541b4f83237\",\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"profile\":\"main\",\"bframes\":3,\"refFrames\":5,\"qp\":0,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0,\"minGop\":0,\"maxGop\":250,\"level\":\"0\",\"rcLookahead\":20,\"bAdapt\":\"FULL\",\"maxCTUSize\":\"64\",\"tuIntraDepth\":\"1\",\"tuInterDepth\":\"1\",\"motionSearch\":\"HEX\",\"subMe\":2,\"motionSearchRange\":57,\"weightPredictionOnPSlice\":true,\"weightPredictionOnBSlice\":false,\"sao\":false}}}"
+I, [2017-03-31T15:38:41.510927 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/h265/ac739e5d-4dd9-4512-ae97-9541b4f83237
+D, [2017-03-31T15:38:41.510989 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.512882 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.512938 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"ac739e5d-4dd9-4512-ae97-9541b4f83237\",\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"profile\":\"main\",\"bframes\":3,\"refFrames\":5,\"qp\":0,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0,\"minGop\":0,\"maxGop\":250,\"level\":\"0\",\"rcLookahead\":20,\"bAdapt\":\"FULL\",\"maxCTUSize\":\"64\",\"tuIntraDepth\":\"1\",\"tuInterDepth\":\"1\",\"motionSearch\":\"HEX\",\"subMe\":2,\"motionSearchRange\":57,\"weightPredictionOnPSlice\":true,\"weightPredictionOnBSlice\":false,\"sao\":false}}}"
+I, [2017-03-31T15:38:41.516345 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/configurations/video/h265/ac739e5d-4dd9-4512-ae97-9541b4f83237
+D, [2017-03-31T15:38:41.516404 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.518143 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.518185 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.531242 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/video/h265
+D, [2017-03-31T15:38:41.531328 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"profile\":\"main\",\"bframes\":3,\"refFrames\":5,\"qp\":0,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0,\"minGop\":0,\"maxGop\":250,\"level\":\"0\",\"rcLookahead\":20,\"bAdapt\":\"FULL\",\"maxCTUSize\":\"64\",\"tuIntraDepth\":\"1\",\"tuInterDepth\":\"1\",\"motionSearch\":\"HEX\",\"subMe\":2,\"motionSearchRange\":57,\"weightPredictionOnPSlice\":true,\"weightPredictionOnBSlice\":false,\"sao\":false}"
+I, [2017-03-31T15:38:41.534899 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.534939 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.537613 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/video/h265
+D, [2017-03-31T15:38:41.537693 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"profile\":\"main\",\"bframes\":3,\"refFrames\":5,\"qp\":0,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0,\"minGop\":0,\"maxGop\":250,\"level\":\"0\",\"rcLookahead\":20,\"bAdapt\":\"FULL\",\"maxCTUSize\":\"64\",\"tuIntraDepth\":\"1\",\"tuInterDepth\":\"1\",\"motionSearch\":\"HEX\",\"subMe\":2,\"motionSearchRange\":57,\"weightPredictionOnPSlice\":true,\"weightPredictionOnBSlice\":false,\"sao\":false}"
+I, [2017-03-31T15:38:41.539860 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.539904 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.543487 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/video/h265
+D, [2017-03-31T15:38:41.543668 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"profile\":\"main\",\"bframes\":3,\"refFrames\":5,\"qp\":0,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0,\"minGop\":0,\"maxGop\":250,\"level\":\"0\",\"rcLookahead\":20,\"bAdapt\":\"FULL\",\"maxCTUSize\":\"64\",\"tuIntraDepth\":\"1\",\"tuInterDepth\":\"1\",\"motionSearch\":\"HEX\",\"subMe\":2,\"motionSearchRange\":57,\"weightPredictionOnPSlice\":true,\"weightPredictionOnBSlice\":false,\"sao\":false}"
+I, [2017-03-31T15:38:41.546443 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.546529 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.551766 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations?limit=100&offset=0
+D, [2017-03-31T15:38:41.551861 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.569072 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.569191 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"h264\",\"id\":\"774f83587518071d60a5fe4db028bc54\",\"name\":\"test\",\"description\":\"desc\",\"width\":100,\"height\":200,\"bitrate\":100000,\"rate\":23.97,\"profile\":\"BASELINE\",\"bframes\":3,\"refFrames\":5,\"qpMin\":0,\"qpMax\":69,\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":16,\"cabac\":true,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0},{\"type\":\"aac\",\"id\":\"e227b02b7dc711b868dedb2c3d2e13c5\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"h265\",\"id\":\"a3993678bf36ddb1fc8512c340eb45a6\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"vp9\",\"id\":\"e40a5f676d6ea1e7e16fd42a0d52b132\",\"name\":\"test\",\"description\":\"desc\"}]}}}"
+I, [2017-03-31T15:38:41.571018 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations?limit=100&offset=0
+D, [2017-03-31T15:38:41.571110 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.573648 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.573722 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"h264\",\"id\":\"5d567c593fd4780a35d0527d559c9c52\",\"name\":\"test\",\"description\":\"desc\",\"width\":100,\"height\":200,\"bitrate\":100000,\"rate\":23.97,\"profile\":\"BASELINE\",\"bframes\":3,\"refFrames\":5,\"qpMin\":0,\"qpMax\":69,\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":16,\"cabac\":true,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0},{\"type\":\"aac\",\"id\":\"c50f6e09ee4cd6d79e4083f9038bc1c7\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"h265\",\"id\":\"5e1a80f1de2ab3b087e1560cc708e0d3\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"vp9\",\"id\":\"d6a5e371366e01489628950d29b09cb0\",\"name\":\"test\",\"description\":\"desc\"}]}}}"
+I, [2017-03-31T15:38:41.579968 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations?limit=100&offset=0
+D, [2017-03-31T15:38:41.580054 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.582185 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.582240 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"h264\",\"id\":\"5d4cd24020188e456a381931547acab0\",\"name\":\"test\",\"description\":\"desc\",\"width\":100,\"height\":200,\"bitrate\":100000,\"rate\":23.97,\"profile\":\"BASELINE\",\"bframes\":3,\"refFrames\":5,\"qpMin\":0,\"qpMax\":69,\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":16,\"cabac\":true,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0},{\"type\":\"aac\",\"id\":\"fc9cdcd3743026a8e55575108a36d244\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"h265\",\"id\":\"70ba0b873c30f7230bc3c84779058395\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"vp9\",\"id\":\"279b9299c91193196fd14b9ae00198a6\",\"name\":\"test\",\"description\":\"desc\"}]}}}"
+I, [2017-03-31T15:38:41.583567 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations?limit=100&offset=0
+D, [2017-03-31T15:38:41.583616 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.588055 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.588126 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"h264\",\"id\":\"cd1a4b425c2acb2243eca15e3de8d599\",\"name\":\"test\",\"description\":\"desc\",\"width\":100,\"height\":200,\"bitrate\":100000,\"rate\":23.97,\"profile\":\"BASELINE\",\"bframes\":3,\"refFrames\":5,\"qpMin\":0,\"qpMax\":69,\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":16,\"cabac\":true,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0},{\"type\":\"aac\",\"id\":\"bcdd4657bf3bcc2721476142d9d56e53\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"h265\",\"id\":\"fdcf978f9802ce1fc3847cbf9b495741\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"vp9\",\"id\":\"af054f127ae6c2b823967847c3452971\",\"name\":\"test\",\"description\":\"desc\"}]}}}"
+I, [2017-03-31T15:38:41.589595 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations?limit=100&offset=0
+D, [2017-03-31T15:38:41.589646 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.592241 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.592372 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"h264\",\"id\":\"f65f8e38616cdad7920e68f601499240\",\"name\":\"test\",\"description\":\"desc\",\"width\":100,\"height\":200,\"bitrate\":100000,\"rate\":23.97,\"profile\":\"BASELINE\",\"bframes\":3,\"refFrames\":5,\"qpMin\":0,\"qpMax\":69,\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":16,\"cabac\":true,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0},{\"type\":\"aac\",\"id\":\"9785f2333d6b3cfd4feba3d0e1c2cfef\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"h265\",\"id\":\"8a9021d719e7305fbe75a2edb7b5c2eb\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"vp9\",\"id\":\"bb1a6a571dd71e5fef770c3718bf859a\",\"name\":\"test\",\"description\":\"desc\"}]}}}"
+I, [2017-03-31T15:38:41.595266 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations?limit=100&offset=0
+D, [2017-03-31T15:38:41.595377 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.598148 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.598213 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"h264\",\"id\":\"03766ce13d0398bf7cc52bc0cf038d4b\",\"name\":\"test\",\"description\":\"desc\",\"width\":100,\"height\":200,\"bitrate\":100000,\"rate\":23.97,\"profile\":\"BASELINE\",\"bframes\":3,\"refFrames\":5,\"qpMin\":0,\"qpMax\":69,\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":16,\"cabac\":true,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0},{\"type\":\"aac\",\"id\":\"cac56002126288bd902a6d01d8009d28\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"h265\",\"id\":\"2560b4ab0c3db59af873b7f8103a5792\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"vp9\",\"id\":\"b75897ce3d2a6cc86e4d3650a5f78bd2\",\"name\":\"test\",\"description\":\"desc\"}]}}}"
+I, [2017-03-31T15:38:41.600871 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations?limit=100&offset=0
+D, [2017-03-31T15:38:41.600978 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.604015 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.604176 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"h264\",\"id\":\"5a4230dfd2d611f0cec3f108c8133759\",\"name\":\"test\",\"description\":\"desc\",\"width\":100,\"height\":200,\"bitrate\":100000,\"rate\":23.97,\"profile\":\"BASELINE\",\"bframes\":3,\"refFrames\":5,\"qpMin\":0,\"qpMax\":69,\"mvPredictionMode\":\"AUTO\",\"mvSearchRangeMax\":16,\"cabac\":true,\"maxBitrate\":0,\"minBitrate\":0,\"bufsize\":0},{\"type\":\"aac\",\"id\":\"3b0a194f8c082e057953654a6ebfddfc\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"h265\",\"id\":\"f88ae6ca13237abafe1d8fef48f10d82\",\"name\":\"test\",\"description\":\"desc\"},{\"type\":\"vp9\",\"id\":\"e5ca0e70b93106b3fc74fd3c88bd2828\",\"name\":\"test\",\"description\":\"desc\"}]}}}"
+I, [2017-03-31T15:38:41.609891 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/vp9?limit=100&offset=0
+D, [2017-03-31T15:38:41.610006 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.630423 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.630507 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"57107f34-0b63-44f7-9f17-1af609b16209\",\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"tileColumns\":0,\"tileRows\":0,\"frameParallel\":false,\"maxIntraRate\":0,\"qpMin\":0,\"qpMax\":63,\"rateUndershootPct\":25,\"rateOvershootPct\":25,\"cpuUsed\":1,\"quality\":\"GOOD\",\"lossless\":false,\"aqMode\":\"NONE\",\"arnrMaxFrames\":0,\"arnrStrength\":3,\"arnrType\":\"CENTERED\"}]}}}"
+I, [2017-03-31T15:38:41.631958 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/vp9?limit=100&offset=0
+D, [2017-03-31T15:38:41.632009 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.640181 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.640255 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"57107f34-0b63-44f7-9f17-1af609b16209\",\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"tileColumns\":0,\"tileRows\":0,\"frameParallel\":false,\"maxIntraRate\":0,\"qpMin\":0,\"qpMax\":63,\"rateUndershootPct\":25,\"rateOvershootPct\":25,\"cpuUsed\":1,\"quality\":\"GOOD\",\"lossless\":false,\"aqMode\":\"NONE\",\"arnrMaxFrames\":0,\"arnrStrength\":3,\"arnrType\":\"CENTERED\"}]}}}"
+I, [2017-03-31T15:38:41.642828 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/vp9/57107f34-0b63-44f7-9f17-1af609b16209
+D, [2017-03-31T15:38:41.642985 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.657074 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.657222 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"57107f34-0b63-44f7-9f17-1af609b16209\",\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"tileColumns\":0,\"tileRows\":0,\"frameParallel\":false,\"maxIntraRate\":0,\"qpMin\":0,\"qpMax\":63,\"rateUndershootPct\":25,\"rateOvershootPct\":25,\"cpuUsed\":1,\"quality\":\"GOOD\",\"lossless\":false,\"aqMode\":\"NONE\",\"arnrMaxFrames\":0,\"arnrStrength\":3,\"arnrType\":\"CENTERED\"}}}"
+I, [2017-03-31T15:38:41.664349 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/vp9/57107f34-0b63-44f7-9f17-1af609b16209
+D, [2017-03-31T15:38:41.664481 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.667412 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.667507 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"57107f34-0b63-44f7-9f17-1af609b16209\",\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"tileColumns\":0,\"tileRows\":0,\"frameParallel\":false,\"maxIntraRate\":0,\"qpMin\":0,\"qpMax\":63,\"rateUndershootPct\":25,\"rateOvershootPct\":25,\"cpuUsed\":1,\"quality\":\"GOOD\",\"lossless\":false,\"aqMode\":\"NONE\",\"arnrMaxFrames\":0,\"arnrStrength\":3,\"arnrType\":\"CENTERED\"}}}"
+I, [2017-03-31T15:38:41.669445 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/configurations/video/vp9/57107f34-0b63-44f7-9f17-1af609b16209
+D, [2017-03-31T15:38:41.669545 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.671875 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.671951 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"57107f34-0b63-44f7-9f17-1af609b16209\",\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"tileColumns\":0,\"tileRows\":0,\"frameParallel\":false,\"maxIntraRate\":0,\"qpMin\":0,\"qpMax\":63,\"rateUndershootPct\":25,\"rateOvershootPct\":25,\"cpuUsed\":1,\"quality\":\"GOOD\",\"lossless\":false,\"aqMode\":\"NONE\",\"arnrMaxFrames\":0,\"arnrStrength\":3,\"arnrType\":\"CENTERED\"}}}"
+I, [2017-03-31T15:38:41.675388 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/configurations/video/vp9/57107f34-0b63-44f7-9f17-1af609b16209
+D, [2017-03-31T15:38:41.675450 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.682274 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.682338 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.685126 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/video/vp9
+D, [2017-03-31T15:38:41.685192 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"tileColumns\":0,\"tileRows\":0,\"frameParallel\":false,\"maxIntraRate\":0,\"qpMin\":0,\"qpMax\":63,\"rateUndershootPct\":25,\"rateOvershootPct\":25,\"cpuUsed\":1,\"quality\":\"GOOD\",\"lossless\":false,\"aqMode\":\"NONE\",\"arnrMaxFrames\":0,\"arnrStrength\":3,\"arnrType\":\"CENTERED\"}"
+I, [2017-03-31T15:38:41.688260 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.688322 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.690953 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/video/vp9
+D, [2017-03-31T15:38:41.691029 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"tileColumns\":0,\"tileRows\":0,\"frameParallel\":false,\"maxIntraRate\":0,\"qpMin\":0,\"qpMax\":63,\"rateUndershootPct\":25,\"rateOvershootPct\":25,\"cpuUsed\":1,\"quality\":\"GOOD\",\"lossless\":false,\"aqMode\":\"NONE\",\"arnrMaxFrames\":0,\"arnrStrength\":3,\"arnrType\":\"CENTERED\"}"
+I, [2017-03-31T15:38:41.693134 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.693271 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.697553 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/configurations/video/vp9
+D, [2017-03-31T15:38:41.697664 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"iPad\",\"description\":\"iPad configuration\",\"bitrate\":10000000,\"rate\":23.97,\"tileColumns\":0,\"tileRows\":0,\"frameParallel\":false,\"maxIntraRate\":0,\"qpMin\":0,\"qpMax\":63,\"rateUndershootPct\":25,\"rateOvershootPct\":25,\"cpuUsed\":1,\"quality\":\"GOOD\",\"lossless\":false,\"aqMode\":\"NONE\",\"arnrMaxFrames\":0,\"arnrStrength\":3,\"arnrType\":\"CENTERED\"}"
+I, [2017-03-31T15:38:41.699677 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.699752 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.710060 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings?limit=100&offset=0
+D, [2017-03-31T15:38:41.710276 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.725955 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.726024 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"id\":\"f3177c2e-0000-4ba6-bd20-1dee353d8a72\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}]}}}"
+I, [2017-03-31T15:38:41.727931 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings?limit=100&offset=0
+D, [2017-03-31T15:38:41.728009 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.729697 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.729759 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"id\":\"f3177c2e-0000-4ba6-bd20-1dee353d8a72\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}]}}}"
+I, [2017-03-31T15:38:41.730846 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings?limit=100&offset=0
+D, [2017-03-31T15:38:41.730966 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.735391 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.735438 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"id\":\"f3177c2e-0000-4ba6-bd20-1dee353d8a72\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}]}}}"
+I, [2017-03-31T15:38:41.768888 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings?limit=100&offset=0
+D, [2017-03-31T15:38:41.768983 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.770883 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.770934 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"id\":\"f3177c2e-0000-4ba6-bd20-1dee353d8a72\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}]}}}"
+I, [2017-03-31T15:38:41.772194 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings?limit=100&offset=0
+D, [2017-03-31T15:38:41.772283 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.774137 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.774184 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"id\":\"f3177c2e-0000-4ba6-bd20-1dee353d8a72\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}]}}}"
+I, [2017-03-31T15:38:41.775362 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings/f3177c2e-0000-4ba6-bd20-1dee353d8a72
+D, [2017-03-31T15:38:41.775416 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.780526 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.780637 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"id\":\"f3177c2e-0000-4ba6-bd20-1dee353d8a72\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}}}"
+I, [2017-03-31T15:38:41.783387 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings/f3177c2e-0000-4ba6-bd20-1dee353d8a72
+D, [2017-03-31T15:38:41.783459 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.785885 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.785988 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"id\":\"f3177c2e-0000-4ba6-bd20-1dee353d8a72\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}}}"
+I, [2017-03-31T15:38:41.788362 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings/f3177c2e-0000-4ba6-bd20-1dee353d8a72
+D, [2017-03-31T15:38:41.788616 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.791846 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.791974 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"id\":\"f3177c2e-0000-4ba6-bd20-1dee353d8a72\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}}}"
+I, [2017-03-31T15:38:41.796872 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/encodings/f3177c2e-0000-4ba6-bd20-1dee353d8a72
+D, [2017-03-31T15:38:41.796986 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.799329 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.799443 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:41.802326 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/encodings
+D, [2017-03-31T15:38:41.802414 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}"
+I, [2017-03-31T15:38:41.805188 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.805273 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.807267 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/encodings
+D, [2017-03-31T15:38:41.807332 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}"
+I, [2017-03-31T15:38:41.808583 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.808620 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.815350 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/encodings
+D, [2017-03-31T15:38:41.815445 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"VideoID-x4jldf8\",\"description\":\"Action Movie\",\"encoderVersion\":\"STABLE\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\",\"infrastructureId\":\"f49ecf6e-bd53-4a40-8b85-64363ee7c708\",\"status\":\"\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\",\"type\":\"NONE\"}"
+I, [2017-03-31T15:38:41.816874 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.816912 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:41.868061 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings/encoding-id/streams?limit=100&offset=0
+D, [2017-03-31T15:38:41.868131 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.883418 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.883550 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"name\":\"Production-ID-678\",\"description\":\"Project ID: 567\",\"inputStreams\":[{\"inputId\":\"47c3e8a3-ab76-46f5-8b07-cd2e2b0c3728\",\"inputPath\":\"/videos/movie1.mp4\",\"selectionMode\":\"AUTO\"}],\"codecConfigId\":\"d09c1a8a-4c56-4392-94d8-81712118aae0\",\"outputs\":[{\"outputId\":\"55354be6-0237-42bb-ae85-a2d4ef1ed19e\",\"outputPath\":\"/encodings/movies/movie-1/video_720/\",\"acl\":[{\"permission\":\"PUBLIC_READ\"}]}],\"id\":\"a6336204-c929-4a61-b7a0-2cd6665114e9\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\"}]}}}"
+I, [2017-03-31T15:38:41.886551 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings/encoding-id/streams?limit=100&offset=0
+D, [2017-03-31T15:38:41.886682 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.889457 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.889583 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"name\":\"Production-ID-678\",\"description\":\"Project ID: 567\",\"inputStreams\":[{\"inputId\":\"47c3e8a3-ab76-46f5-8b07-cd2e2b0c3728\",\"inputPath\":\"/videos/movie1.mp4\",\"selectionMode\":\"AUTO\"}],\"codecConfigId\":\"d09c1a8a-4c56-4392-94d8-81712118aae0\",\"outputs\":[{\"outputId\":\"55354be6-0237-42bb-ae85-a2d4ef1ed19e\",\"outputPath\":\"/encodings/movies/movie-1/video_720/\",\"acl\":[{\"permission\":\"PUBLIC_READ\"}]}],\"id\":\"a6336204-c929-4a61-b7a0-2cd6665114e9\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\"}]}}}"
+I, [2017-03-31T15:38:41.891807 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings/encoding-id/streams?limit=100&offset=0
+D, [2017-03-31T15:38:41.891909 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.894085 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.894148 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"name\":\"Production-ID-678\",\"description\":\"Project ID: 567\",\"inputStreams\":[{\"inputId\":\"47c3e8a3-ab76-46f5-8b07-cd2e2b0c3728\",\"inputPath\":\"/videos/movie1.mp4\",\"selectionMode\":\"AUTO\"}],\"codecConfigId\":\"d09c1a8a-4c56-4392-94d8-81712118aae0\",\"outputs\":[{\"outputId\":\"55354be6-0237-42bb-ae85-a2d4ef1ed19e\",\"outputPath\":\"/encodings/movies/movie-1/video_720/\",\"acl\":[{\"permission\":\"PUBLIC_READ\"}]}],\"id\":\"a6336204-c929-4a61-b7a0-2cd6665114e9\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\"}]}}}"
+I, [2017-03-31T15:38:41.896079 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings/encoding-id/streams?limit=100&offset=0
+D, [2017-03-31T15:38:41.896179 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.898361 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.898457 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"name\":\"Production-ID-678\",\"description\":\"Project ID: 567\",\"inputStreams\":[{\"inputId\":\"47c3e8a3-ab76-46f5-8b07-cd2e2b0c3728\",\"inputPath\":\"/videos/movie1.mp4\",\"selectionMode\":\"AUTO\"}],\"codecConfigId\":\"d09c1a8a-4c56-4392-94d8-81712118aae0\",\"outputs\":[{\"outputId\":\"55354be6-0237-42bb-ae85-a2d4ef1ed19e\",\"outputPath\":\"/encodings/movies/movie-1/video_720/\",\"acl\":[{\"permission\":\"PUBLIC_READ\"}]}],\"id\":\"a6336204-c929-4a61-b7a0-2cd6665114e9\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\"}]}}}"
+I, [2017-03-31T15:38:41.905803 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings/encoding-id/streams?limit=100&offset=0
+D, [2017-03-31T15:38:41.905898 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.908078 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.908126 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"name\":\"Production-ID-678\",\"description\":\"Project ID: 567\",\"inputStreams\":[{\"inputId\":\"47c3e8a3-ab76-46f5-8b07-cd2e2b0c3728\",\"inputPath\":\"/videos/movie1.mp4\",\"selectionMode\":\"AUTO\"}],\"codecConfigId\":\"d09c1a8a-4c56-4392-94d8-81712118aae0\",\"outputs\":[{\"outputId\":\"55354be6-0237-42bb-ae85-a2d4ef1ed19e\",\"outputPath\":\"/encodings/movies/movie-1/video_720/\",\"acl\":[{\"permission\":\"PUBLIC_READ\"}]}],\"id\":\"a6336204-c929-4a61-b7a0-2cd6665114e9\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\"}]}}}"
+I, [2017-03-31T15:38:41.910956 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings/encoding-id/streams/stream-id
+D, [2017-03-31T15:38:41.911009 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.919203 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.919275 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"name\":\"Production-ID-678\",\"description\":\"Project ID: 567\",\"inputStreams\":[{\"inputId\":\"47c3e8a3-ab76-46f5-8b07-cd2e2b0c3728\",\"inputPath\":\"/videos/movie1.mp4\",\"selectionMode\":\"AUTO\"}],\"codecConfigId\":\"d09c1a8a-4c56-4392-94d8-81712118aae0\",\"outputs\":[{\"outputId\":\"55354be6-0237-42bb-ae85-a2d4ef1ed19e\",\"outputPath\":\"/encodings/movies/movie-1/video_720/\",\"acl\":[{\"permission\":\"PUBLIC_READ\"}]}],\"id\":\"a6336204-c929-4a61-b7a0-2cd6665114e9\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\"}}}"
+I, [2017-03-31T15:38:41.920845 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/encodings/encoding-id/streams/stream-id
+D, [2017-03-31T15:38:41.920903 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:41.922758 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:41.922815 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"name\":\"Production-ID-678\",\"description\":\"Project ID: 567\",\"inputStreams\":[{\"inputId\":\"47c3e8a3-ab76-46f5-8b07-cd2e2b0c3728\",\"inputPath\":\"/videos/movie1.mp4\",\"selectionMode\":\"AUTO\"}],\"codecConfigId\":\"d09c1a8a-4c56-4392-94d8-81712118aae0\",\"outputs\":[{\"outputId\":\"55354be6-0237-42bb-ae85-a2d4ef1ed19e\",\"outputPath\":\"/encodings/movies/movie-1/video_720/\",\"acl\":[{\"permission\":\"PUBLIC_READ\"}]}],\"id\":\"a6336204-c929-4a61-b7a0-2cd6665114e9\",\"createdAt\":\"2016-06-25T20:09:23.69Z\",\"modifiedAt\":\"2016-06-25T20:09:23.69Z\"}}}"
+I, [2017-03-31T15:38:42.269127 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/encodings/encoding-id/streams
+D, [2017-03-31T15:38:42.269257 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"Production-ID-678\",\"description\":\"Project ID: 567\",\"createQualityMetaData\":true,\"inputStreams\":[{\"inputId\":\"47c3e8a3-ab76-46f5-8b07-cd2e2b0c3728\",\"inputPath\":\"/videos/movie1.mp4\",\"selectionMode\":\"AUTO\"}],\"outputs\":[{\"outputId\":\"55354be6-0237-42bb-ae85-a2d4ef1ed19e\",\"outputPath\":\"/encodings/movies/movie-1/video_720/\",\"acl\":[{\"permission\":\"PUBLIC_READ\"}]}],\"codecConfigId\":\"d09c1a8a-4c56-4392-94d8-81712118aae0\"}"
+I, [2017-03-31T15:38:42.283184 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.283263 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"test\"}}}"
+I, [2017-03-31T15:38:42.286513 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/encodings/encoding-id/streams
+D, [2017-03-31T15:38:42.286586 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"Production-ID-678\",\"description\":\"Project ID: 567\",\"createQualityMetaData\":true,\"inputStreams\":[{\"inputId\":\"47c3e8a3-ab76-46f5-8b07-cd2e2b0c3728\",\"inputPath\":\"/videos/movie1.mp4\",\"selectionMode\":\"AUTO\"}],\"outputs\":[{\"outputId\":\"55354be6-0237-42bb-ae85-a2d4ef1ed19e\",\"outputPath\":\"/encodings/movies/movie-1/video_720/\",\"acl\":[{\"permission\":\"PUBLIC_READ\"}]}],\"codecConfigId\":\"d09c1a8a-4c56-4392-94d8-81712118aae0\"}"
+I, [2017-03-31T15:38:42.289260 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.289312 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"test\"}}}"
+I, [2017-03-31T15:38:42.291552 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/encodings/encoding-id/streams/a6336204-c929-4a61-b7a0-2cd6665114e9
+D, [2017-03-31T15:38:42.291608 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.295824 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.295904 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:42.335155 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis/analysis-id
+D, [2017-03-31T15:38:42.335276 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.350956 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.351120 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"86e2d764-bca5-4255-b60b-326d79129a21\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"1aa9fe15-5013-4f89-b73b-b6b1f1e0ff99\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}}}"
+I, [2017-03-31T15:38:42.353696 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis/analysis-id
+D, [2017-03-31T15:38:42.353874 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.358454 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.358678 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"cab29bb3-9050-4c6a-b4da-29dd31b828d9\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"170295ab-2818-4222-8d46-6c0698ccb3f1\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}}}"
+I, [2017-03-31T15:38:42.361720 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis/analysis-id
+D, [2017-03-31T15:38:42.361910 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.366720 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.366819 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"73739fbd-93e2-422b-9b9d-2db6ad02974d\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"06e50d85-96dc-4fef-8816-d753055c2419\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}}}"
+I, [2017-03-31T15:38:42.369326 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis/analysis-id
+D, [2017-03-31T15:38:42.369454 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.373430 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.373515 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"8c8d6282-631d-4ddc-96b1-acbe59c096e7\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"fb615a3a-35c6-4e34-ae0b-493b82157423\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}}}"
+I, [2017-03-31T15:38:42.375006 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis/analysis-id
+D, [2017-03-31T15:38:42.375086 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.377349 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.377437 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"40e3ebaf-be14-4550-8f71-a008c2f8b6e7\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"75a85227-c5a3-41b3-993d-d1a7f01afb6d\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}}}"
+I, [2017-03-31T15:38:42.378794 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis/analysis-id
+D, [2017-03-31T15:38:42.378900 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.381001 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.381060 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"75741282-6448-41e9-aeb4-c7a87586285b\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"3de03662-9edb-4a90-9394-4baf5a854234\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}}}"
+I, [2017-03-31T15:38:42.382366 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis/analysis-id
+D, [2017-03-31T15:38:42.382429 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.384230 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.384292 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"ab28d08b-e925-4a4b-9649-5f1a9d81611b\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"34ce4b69-c878-4020-a688-ddc4eccae9ba\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}}}"
+I, [2017-03-31T15:38:42.385457 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis/analysis-id
+D, [2017-03-31T15:38:42.385555 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.387272 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.387328 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"1e3f5d09-87ca-448f-8b20-877d630ddbb4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"18c3170c-b926-420e-97dd-6bbbab8a792c\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}}}"
+I, [2017-03-31T15:38:42.392056 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.392172 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.408311 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.408381 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"RUNNING\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.410286 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.410354 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.419440 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.419530 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"RUNNING\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.421475 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.421604 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.423952 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.424010 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"RUNNING\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.437581 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.437706 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.442125 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.442253 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"CREATED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.444168 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.444340 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.447708 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.447845 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"CREATED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.449281 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.449431 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.452201 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.452350 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"CREATED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.453911 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.453983 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.456300 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.456386 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"CREATED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.457171 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.457220 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.458980 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.459019 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"CREATED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.459759 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.459808 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.461790 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.461830 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"QUEUED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.462517 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.462599 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.469751 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.469827 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"QUEUED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.470806 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.470877 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.472864 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.472910 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"QUEUED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.473885 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.473946 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.476125 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.476241 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"QUEUED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.478058 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.478158 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.480842 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.480921 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"QUEUED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.482365 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.482435 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.485193 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.485313 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"RUNNING\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.486999 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.487109 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.490398 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.490560 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"RUNNING\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.492539 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.492660 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.496505 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.496634 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"RUNNING\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.497791 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.497864 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.500661 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.500775 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"RUNNING\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.502233 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.502347 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.504815 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.504911 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"RUNNING\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.505784 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.505837 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.507376 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.507415 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"FINISHED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.507985 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.508033 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.509444 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.509481 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"FINISHED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.510001 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.510048 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.511500 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.511543 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"FINISHED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.512066 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.512115 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.518499 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.518572 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"FINISHED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.519452 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.519538 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.521401 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.521470 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"FINISHED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.522570 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.522653 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.524620 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.524673 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"ERROR\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.525488 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.525539 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.527021 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.527065 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"ERROR\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.527800 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.527862 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.529745 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.529852 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"ERROR\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.538380 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.538472 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.541314 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.541387 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"ERROR\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.542608 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.542685 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.545488 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.545578 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"ERROR\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.547034 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.547122 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.549945 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.550023 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"RUNNING\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.551317 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.551384 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.553819 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.553904 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"RUNNING\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.555080 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.555148 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.557502 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.557619 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"QUEUED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.560316 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/test/analysis/analysis-id/status
+D, [2017-03-31T15:38:42.560451 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.562882 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.562960 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"analysis\":{\"status\":\"FINISHED\",\"eta\":67,\"progress\":36}}}}"
+I, [2017-03-31T15:38:42.565324 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/http?limit=100&offset=0
+D, [2017-03-31T15:38:42.565387 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.579233 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.579300 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\",\"minBandwith\":\"100m\",\"maxBandwith\":\"100k\"}]}}}"
+I, [2017-03-31T15:38:42.580327 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/http?limit=100&offset=0
+D, [2017-03-31T15:38:42.580379 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.582153 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.582197 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\",\"minBandwith\":\"100m\",\"maxBandwith\":\"100k\"}]}}}"
+I, [2017-03-31T15:38:42.583066 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/http/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.583116 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.586520 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.586584 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\",\"minBandwith\":\"100m\",\"maxBandwith\":\"100k\"}}}"
+I, [2017-03-31T15:38:42.588528 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/http/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.588597 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.590594 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.590649 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\",\"minBandwith\":\"100m\",\"maxBandwith\":\"100k\"}}}"
+I, [2017-03-31T15:38:42.591776 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/http/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.591829 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.593932 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.593988 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\",\"minBandwith\":\"100m\",\"maxBandwith\":\"100k\"}}}"
+I, [2017-03-31T15:38:42.610509 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/inputs/http/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.610603 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.612583 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.612627 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:42.614670 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/http
+D, [2017-03-31T15:38:42.614733 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\",\"minBandwith\":\"100m\",\"maxBandwith\":\"100k\"}"
+I, [2017-03-31T15:38:42.617717 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.617765 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.619747 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/http
+D, [2017-03-31T15:38:42.619802 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\",\"minBandwith\":\"100m\",\"maxBandwith\":\"100k\"}"
+I, [2017-03-31T15:38:42.621571 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.621618 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.623649 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/http
+D, [2017-03-31T15:38:42.623710 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\",\"minBandwith\":\"100m\",\"maxBandwith\":\"100k\"}"
+I, [2017-03-31T15:38:42.625315 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.625354 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.628137 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/azure?limit=100&offset=0
+D, [2017-03-31T15:38:42.628189 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.646743 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.646803 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"azure input\",\"description\":\"desc\",\"accountName\":\"foo\",\"accountKey\":\"secret\",\"container\":\"test\"}]}}}"
+I, [2017-03-31T15:38:42.647790 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/azure?limit=100&offset=0
+D, [2017-03-31T15:38:42.647841 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.649544 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.649585 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"azure input\",\"description\":\"desc\",\"accountName\":\"foo\",\"accountKey\":\"secret\",\"container\":\"test\"}]}}}"
+I, [2017-03-31T15:38:42.650442 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/azure/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.650497 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.654064 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.654107 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"azure input\",\"description\":\"desc\",\"accountName\":\"foo\",\"accountKey\":\"secret\",\"container\":\"test\"}}}"
+I, [2017-03-31T15:38:42.656671 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/azure/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.656768 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.658709 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.658807 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"azure input\",\"description\":\"desc\",\"accountName\":\"foo\",\"accountKey\":\"secret\",\"container\":\"test\"}}}"
+I, [2017-03-31T15:38:42.661073 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/azure/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.661248 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.667574 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.667820 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"azure input\",\"description\":\"desc\",\"accountName\":\"foo\",\"accountKey\":\"secret\",\"container\":\"test\"}}}"
+I, [2017-03-31T15:38:42.672429 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/inputs/azure/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.672588 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.676202 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.676415 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:42.679992 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/azure
+D, [2017-03-31T15:38:42.680164 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"azure input\",\"description\":\"desc\",\"accountName\":\"foo\",\"accountKey\":\"secret\",\"container\":\"test\"}"
+I, [2017-03-31T15:38:42.684454 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.684536 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.687237 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/azure
+D, [2017-03-31T15:38:42.687312 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"azure input\",\"description\":\"desc\",\"accountName\":\"foo\",\"accountKey\":\"secret\",\"container\":\"test\"}"
+I, [2017-03-31T15:38:42.689028 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.689071 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.690797 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/azure
+D, [2017-03-31T15:38:42.690851 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"azure input\",\"description\":\"desc\",\"accountName\":\"foo\",\"accountKey\":\"secret\",\"container\":\"test\"}"
+I, [2017-03-31T15:38:42.692377 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.692441 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.698644 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/ftp?limit=100&offset=0
+D, [2017-03-31T15:38:42.698726 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.712829 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.712887 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"ftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\",\"passive\":\"true\"}]}}}"
+I, [2017-03-31T15:38:42.713732 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/ftp?limit=100&offset=0
+D, [2017-03-31T15:38:42.713781 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.715374 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.715427 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"ftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\",\"passive\":\"true\"}]}}}"
+I, [2017-03-31T15:38:42.716191 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/ftp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.716245 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.726683 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.726785 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"ftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\",\"passive\":\"true\"}}}"
+I, [2017-03-31T15:38:42.729227 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/ftp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.729365 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.731399 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.731474 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"ftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\",\"passive\":\"true\"}}}"
+I, [2017-03-31T15:38:42.732728 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/ftp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.732829 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.734747 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.734819 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"ftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\",\"passive\":\"true\"}}}"
+I, [2017-03-31T15:38:42.737568 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/inputs/ftp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.737690 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.740016 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.740076 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:42.742357 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/ftp
+D, [2017-03-31T15:38:42.742452 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"ftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\",\"passive\":\"true\"}"
+I, [2017-03-31T15:38:42.745666 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.745734 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.747946 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/ftp
+D, [2017-03-31T15:38:42.748057 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"ftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\",\"passive\":\"true\"}"
+I, [2017-03-31T15:38:42.749866 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.749912 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.752128 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/ftp
+D, [2017-03-31T15:38:42.752204 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"ftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\",\"passive\":\"true\"}"
+I, [2017-03-31T15:38:42.753822 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.753871 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.756648 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/gcs?limit=100&offset=0
+D, [2017-03-31T15:38:42.756700 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.770207 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.770265 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"gcs input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:42.775784 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/gcs?limit=100&offset=0
+D, [2017-03-31T15:38:42.775860 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.777764 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.777810 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"gcs input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:42.778639 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/gcs/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.778690 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.782153 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.782212 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"gcs input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:42.783798 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/gcs/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.783848 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.785458 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.785498 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"gcs input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:42.786368 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/gcs/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.786418 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.788082 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.788132 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"gcs input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:42.790528 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/inputs/gcs/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.790599 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.793027 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.793190 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:42.796809 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/gcs
+D, [2017-03-31T15:38:42.796900 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"gcs input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:42.800576 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.800674 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.803594 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/gcs
+D, [2017-03-31T15:38:42.803743 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"gcs input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:42.806298 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.806408 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.809931 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/gcs
+D, [2017-03-31T15:38:42.810057 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"gcs input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:42.812461 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.812548 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.817396 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/generic-s3?limit=100&offset=0
+D, [2017-03-31T15:38:42.817477 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.836839 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.836906 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\",\"host\":\"127.0.0.1\",\"port\":\"3000\"}]}}}"
+I, [2017-03-31T15:38:42.837976 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/generic-s3?limit=100&offset=0
+D, [2017-03-31T15:38:42.838054 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.839890 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.839933 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\",\"host\":\"127.0.0.1\",\"port\":\"3000\"}]}}}"
+I, [2017-03-31T15:38:42.840814 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/generic-s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.840865 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.845638 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.845778 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\",\"host\":\"127.0.0.1\",\"port\":\"3000\"}}}"
+I, [2017-03-31T15:38:42.848085 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/generic-s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.848156 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.850109 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.850194 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\",\"host\":\"127.0.0.1\",\"port\":\"3000\"}}}"
+I, [2017-03-31T15:38:42.852171 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/generic-s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.852248 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.854829 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.854980 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\",\"host\":\"127.0.0.1\",\"port\":\"3000\"}}}"
+I, [2017-03-31T15:38:42.859301 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/inputs/generic-s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.859450 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.867511 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.867655 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:42.870329 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/generic-s3
+D, [2017-03-31T15:38:42.870412 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\",\"host\":\"127.0.0.1\",\"port\":\"3000\"}"
+I, [2017-03-31T15:38:42.873831 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.873879 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.875656 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/generic-s3
+D, [2017-03-31T15:38:42.875711 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\",\"host\":\"127.0.0.1\",\"port\":\"3000\"}"
+I, [2017-03-31T15:38:42.877282 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.877328 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.884143 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/generic-s3
+D, [2017-03-31T15:38:42.884218 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\",\"host\":\"127.0.0.1\",\"port\":\"3000\"}"
+I, [2017-03-31T15:38:42.885983 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.886021 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.888840 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/http?limit=100&offset=0
+D, [2017-03-31T15:38:42.888955 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.903016 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.903147 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}]}}}"
+I, [2017-03-31T15:38:42.904633 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/http?limit=100&offset=0
+D, [2017-03-31T15:38:42.904737 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.907253 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.907344 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}]}}}"
+I, [2017-03-31T15:38:42.909353 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/http/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.909487 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.911821 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.911914 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}}}"
+I, [2017-03-31T15:38:42.917628 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/http/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.917754 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.920270 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.920336 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}}}"
+I, [2017-03-31T15:38:42.921374 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/http/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.921426 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.923213 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.923260 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}}}"
+I, [2017-03-31T15:38:42.925197 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/inputs/http/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.925249 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.931483 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.931563 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:42.933660 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/http
+D, [2017-03-31T15:38:42.933716 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}"
+I, [2017-03-31T15:38:42.935323 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.935361 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.936893 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/http
+D, [2017-03-31T15:38:42.936950 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}"
+I, [2017-03-31T15:38:42.938468 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.938527 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.940269 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/http
+D, [2017-03-31T15:38:42.940327 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"http input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}"
+I, [2017-03-31T15:38:42.941930 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.941980 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:42.946836 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/https?limit=100&offset=0
+D, [2017-03-31T15:38:42.946947 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.965750 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.965925 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"https input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}]}}}"
+I, [2017-03-31T15:38:42.967370 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/https?limit=100&offset=0
+D, [2017-03-31T15:38:42.967453 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.969835 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.969894 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"https input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}]}}}"
+I, [2017-03-31T15:38:42.970884 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/https/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.970939 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.974242 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.974330 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"https input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}}}"
+I, [2017-03-31T15:38:42.980648 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/https/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.980730 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.985301 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.985346 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"https input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}}}"
+I, [2017-03-31T15:38:42.986283 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/https/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.986348 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.988147 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.988216 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"https input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}}}"
+I, [2017-03-31T15:38:42.990297 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/inputs/https/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:42.990348 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:42.992340 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.992389 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:42.995539 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/https
+D, [2017-03-31T15:38:42.995735 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"https input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}"
+I, [2017-03-31T15:38:42.999920 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:42.999999 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.002406 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/https
+D, [2017-03-31T15:38:43.002515 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"https input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}"
+I, [2017-03-31T15:38:43.005228 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.005356 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.008671 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/https
+D, [2017-03-31T15:38:43.008857 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"https input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"username\":\"root\",\"password\":\"secret\"}"
+I, [2017-03-31T15:38:43.011912 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.012023 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.015556 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs?limit=100&offset=0
+D, [2017-03-31T15:38:43.015717 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.029816 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.029885 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"S3\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.030897 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs?limit=100&offset=0
+D, [2017-03-31T15:38:43.030947 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.032574 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.032614 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"S3\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.033466 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs?limit=100&offset=0
+D, [2017-03-31T15:38:43.033536 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.035049 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.035094 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"S3\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.035942 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs?limit=100&offset=0
+D, [2017-03-31T15:38:43.035989 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.037533 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.037571 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"S3\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.043346 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/rtmp?limit=100&offset=0
+D, [2017-03-31T15:38:43.043409 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.057358 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.057447 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\",\"type\":\"rtmp\"}]}}}"
+I, [2017-03-31T15:38:43.058303 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/rtmp?limit=100&offset=0
+D, [2017-03-31T15:38:43.058352 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.059995 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.060034 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\",\"type\":\"rtmp\"}]}}}"
+I, [2017-03-31T15:38:43.081490 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/rtmp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.081580 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.085442 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.085497 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\"}}}"
+I, [2017-03-31T15:38:43.087188 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/rtmp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.087244 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.089046 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.089094 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\"}}}"
+I, [2017-03-31T15:38:43.090076 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/rtmp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.090130 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.091868 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.091928 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\"}}}"
+I, [2017-03-31T15:38:43.095929 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/inputs/rtmp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.096125 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.098501 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.098558 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:43.101363 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/rtmp
+D, [2017-03-31T15:38:43.101481 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 input\",\"description\":\"desc\"}"
+I, [2017-03-31T15:38:43.105947 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.106066 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.109698 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/rtmp
+D, [2017-03-31T15:38:43.109786 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 input\",\"description\":\"desc\"}"
+I, [2017-03-31T15:38:43.112093 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.112233 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.114567 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/rtmp
+D, [2017-03-31T15:38:43.114706 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 input\",\"description\":\"desc\"}"
+I, [2017-03-31T15:38:43.116742 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.116804 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.120050 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/s3?limit=100&offset=0
+D, [2017-03-31T15:38:43.120161 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.141713 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.141801 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"type\":\"S3\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.143954 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/s3?limit=100&offset=0
+D, [2017-03-31T15:38:43.144099 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.146835 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.146913 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"type\":\"S3\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.148215 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.148269 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.152630 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.152745 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:43.155772 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.155897 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.158439 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.158526 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:43.160600 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.160721 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.163386 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.163457 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:43.167484 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/inputs/s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.167606 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.170037 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.170105 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:43.172328 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/s3
+D, [2017-03-31T15:38:43.172400 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:43.175123 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.179507 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.181691 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/s3
+D, [2017-03-31T15:38:43.181755 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:43.183295 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.183333 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.184961 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/s3
+D, [2017-03-31T15:38:43.185013 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:43.186518 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.186558 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.189224 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis
+D, [2017-03-31T15:38:43.189294 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"path\":\"/path/to/mediafile.mp4\",\"cloudRegion\":\"AWS_EU_WEST_1\"}"
+I, [2017-03-31T15:38:43.207435 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.207576 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"analysis-id\"}}}"
+I, [2017-03-31T15:38:43.210818 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis
+D, [2017-03-31T15:38:43.210990 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"path\":\"/path/to/mediafile.mp4\",\"cloudRegion\":\"AWS_EU_WEST_1\"}"
+I, [2017-03-31T15:38:43.213912 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.214046 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"analysis-id\"}}}"
+I, [2017-03-31T15:38:43.215976 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis?limit=100&offset=0
+D, [2017-03-31T15:38:43.216062 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.220698 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.220805 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":[{\"id\":\"0\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"23ed2b26-bf4f-4bc5-baf8-bf3039c4f2bb\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"1\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"4ed0f8c5-0ad3-4b20-aa69-058bf38dc71d\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"2\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"059711ab-3e90-4923-8e68-c69a263ecc14\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"3\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"1e4e76d4-b5e5-402b-86e7-6c1fe6ecd671\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"2ed30fbd-2a3b-483d-8c9e-3e43d8bcc4f0\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}]}}"
+I, [2017-03-31T15:38:43.232464 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis?limit=100&offset=0
+D, [2017-03-31T15:38:43.232531 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.234247 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.234313 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":[{\"id\":\"0\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"90e2bee9-052b-4432-a802-bd495dc2bc9c\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"1\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"ef2adc00-e18c-4862-a9c4-9e63e0351e0d\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"2\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"125c44e2-4e06-4bbc-bdc0-466efbbcd618\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"3\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"4d5d6221-d720-4cdb-95e3-d6420c989f95\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"289eb36c-302d-4fb8-88c6-951ea408058e\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}]}}"
+I, [2017-03-31T15:38:43.235842 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis?limit=100&offset=0
+D, [2017-03-31T15:38:43.235889 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.239099 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.239215 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":[{\"id\":\"0\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"90e2bee9-052b-4432-a802-bd495dc2bc9c\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"1\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"ef2adc00-e18c-4862-a9c4-9e63e0351e0d\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"2\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"125c44e2-4e06-4bbc-bdc0-466efbbcd618\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"3\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"4d5d6221-d720-4cdb-95e3-d6420c989f95\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"289eb36c-302d-4fb8-88c6-951ea408058e\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}]}}"
+I, [2017-03-31T15:38:43.243736 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis?limit=100&offset=0
+D, [2017-03-31T15:38:43.243944 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.247209 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.247338 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":[{\"id\":\"0\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"5e81f927-6a48-4357-a5aa-07b6fcca5986\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"1\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"d858c725-a20c-452c-8ec8-65b4349529ab\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"2\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"8fff1ef0-f588-40b4-85d0-211822a2ac7f\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"3\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"83db4f9c-1314-4c5e-9439-8ebf2f0eebb3\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"e188881d-8432-4d61-b381-68638164d828\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}]}}"
+I, [2017-03-31T15:38:43.249587 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis?limit=100&offset=0
+D, [2017-03-31T15:38:43.249705 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.253895 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.254099 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":[{\"id\":\"0\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"5e81f927-6a48-4357-a5aa-07b6fcca5986\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"1\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"d858c725-a20c-452c-8ec8-65b4349529ab\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"2\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"8fff1ef0-f588-40b4-85d0-211822a2ac7f\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"3\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"83db4f9c-1314-4c5e-9439-8ebf2f0eebb3\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"e188881d-8432-4d61-b381-68638164d828\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}]}}"
+I, [2017-03-31T15:38:43.263537 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis?limit=100&offset=0
+D, [2017-03-31T15:38:43.263732 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.267297 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.267483 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":[{\"id\":\"0\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"0a9d2808-54f7-41f6-aff9-fe5b0c805a51\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"1\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"e29b6b1f-777a-4cf6-aabf-c93a51e34b64\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"2\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"eeaa4b38-0594-46f1-b2ba-84a26dfa6470\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"3\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"b04fc633-a28d-4d53-b170-44db9a68194b\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"c734ae27-8164-4e07-8d65-c5f0b64e673e\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}]}}"
+I, [2017-03-31T15:38:43.270373 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis?limit=100&offset=0
+D, [2017-03-31T15:38:43.270544 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.273759 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.273864 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":[{\"id\":\"0\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"0a9d2808-54f7-41f6-aff9-fe5b0c805a51\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"1\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"e29b6b1f-777a-4cf6-aabf-c93a51e34b64\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"2\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"eeaa4b38-0594-46f1-b2ba-84a26dfa6470\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"3\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"b04fc633-a28d-4d53-b170-44db9a68194b\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"c734ae27-8164-4e07-8d65-c5f0b64e673e\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}]}}"
+I, [2017-03-31T15:38:43.276857 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis?limit=100&offset=0
+D, [2017-03-31T15:38:43.276933 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.279191 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.279290 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":[{\"id\":\"0\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"4385d413-d465-4e89-b83f-b67c89b1c7d8\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"1\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"decb970e-49e9-49f5-b7a6-6d89a0b0bc10\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"2\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"03a87d9c-21e9-472b-bae8-0ae0aee8dae6\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"3\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"2c3c41b6-b3c4-4eb0-a825-5b14e2f08482\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"70db503b-cabf-4f95-8f9a-4896010db217\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}]}}"
+I, [2017-03-31T15:38:43.286382 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis?limit=100&offset=0
+D, [2017-03-31T15:38:43.286491 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.289813 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.289938 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":[{\"id\":\"0\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"4385d413-d465-4e89-b83f-b67c89b1c7d8\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"1\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"decb970e-49e9-49f5-b7a6-6d89a0b0bc10\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"2\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"03a87d9c-21e9-472b-bae8-0ae0aee8dae6\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"3\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"2c3c41b6-b3c4-4eb0-a825-5b14e2f08482\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"70db503b-cabf-4f95-8f9a-4896010db217\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}]}}"
+I, [2017-03-31T15:38:43.295776 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/input-id/analysis?limit=100&offset=0
+D, [2017-03-31T15:38:43.295993 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.299950 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.300151 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":[{\"id\":\"0\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"cc9e7bf6-1d16-4953-a634-a46a06c7ce80\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"1\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"f9c0c728-60c6-4435-9a23-3ba4f010efa9\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"2\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"974f09b7-afea-40ef-a7bd-78c06c96a02c\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"3\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"3d3b8d80-0609-4e2b-a846-f1f812ec2241\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"},{\"id\":\"4\",\"videoStreams\":[{\"position\":\"100\",\"id\":\"09e9f6bc-49b5-478c-b741-c843b71d1241\",\"fps\":\"24\",\"codec\":\"h264\",\"testStringToUnderscore\":\"test\"}],\"audioStreams\":[{}],\"metaStreams\":[{}],\"subtitleStreams\":[{}],\"path\":\"/path/to/media/file\",\"cloudRegion\":\"GOOGLE_EUROPE_WEST_1\"}]}}"
+I, [2017-03-31T15:38:43.308946 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/sftp?limit=100&offset=0
+D, [2017-03-31T15:38:43.309115 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.339534 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.339636 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"sftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\"}]}}}"
+I, [2017-03-31T15:38:43.340739 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/sftp?limit=100&offset=0
+D, [2017-03-31T15:38:43.340864 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.344374 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.344539 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"sftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\"}]}}}"
+I, [2017-03-31T15:38:43.346516 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/sftp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.346637 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.352574 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.352846 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"sftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\"}}}"
+I, [2017-03-31T15:38:43.356413 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/sftp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.356561 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.359343 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.359432 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"sftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\"}}}"
+I, [2017-03-31T15:38:43.360775 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/inputs/sftp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.360873 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.363161 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.363241 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"sftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\"}}}"
+I, [2017-03-31T15:38:43.365893 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/inputs/sftp/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.366007 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.368151 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.368209 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:43.370486 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/sftp
+D, [2017-03-31T15:38:43.370551 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"sftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\"}"
+I, [2017-03-31T15:38:43.373294 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.374973 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.377079 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/sftp
+D, [2017-03-31T15:38:43.377158 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"sftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\"}"
+I, [2017-03-31T15:38:43.378705 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.378743 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.380310 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/inputs/sftp
+D, [2017-03-31T15:38:43.380363 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"sftp input\",\"description\":\"desc\",\"host\":\"127.0.0.1\",\"port\":\"21\",\"username\":\"root\",\"password\":\"secret\"}"
+I, [2017-03-31T15:38:43.381863 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.381955 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.385022 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/period-id/adaptationsets/audio
+D, [2017-03-31T15:38:43.385076 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"roles\":[\"ALTERNATE\"],\"lang\":\"en\"}"
+I, [2017-03-31T15:38:43.402320 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.402399 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"test\"}}}"
+I, [2017-03-31T15:38:43.404544 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/period-id/adaptationsets/audio
+D, [2017-03-31T15:38:43.404608 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"roles\":[\"ALTERNATE\"],\"lang\":\"en\"}"
+I, [2017-03-31T15:38:43.406571 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.406618 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"test\"}}}"
+I, [2017-03-31T15:38:43.407444 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/period-id/adaptationsets/audio
+D, [2017-03-31T15:38:43.407494 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"roles\":[\"ALTERNATE\"],\"lang\":\"en\"}"
+I, [2017-03-31T15:38:43.409234 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.409271 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"test\"}}}"
+I, [2017-03-31T15:38:43.414591 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods
+D, [2017-03-31T15:38:43.414650 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.431127 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.431222 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"foo\":\"bar\"},{\"test\":\"item\"}]}}}"
+I, [2017-03-31T15:38:43.433023 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods
+D, [2017-03-31T15:38:43.433075 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.434617 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.434654 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"foo\":\"bar\"},{\"test\":\"item\"}]}}}"
+I, [2017-03-31T15:38:43.461635 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/7d8b38d5-9f59-4ede-a4f8-d6e822bcba9b/adaptationsets/video
+D, [2017-03-31T15:38:43.461762 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.479506 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.479594 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"video\"}]}}}"
+I, [2017-03-31T15:38:43.482441 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/7d8b38d5-9f59-4ede-a4f8-d6e822bcba9b/adaptationsets/video
+D, [2017-03-31T15:38:43.482584 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.485364 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.485434 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"video\"}]}}}"
+I, [2017-03-31T15:38:43.486334 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/7d8b38d5-9f59-4ede-a4f8-d6e822bcba9b/adaptationsets/video
+D, [2017-03-31T15:38:43.486392 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.488396 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.488435 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"video\"}]}}}"
+I, [2017-03-31T15:38:43.489303 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/7d8b38d5-9f59-4ede-a4f8-d6e822bcba9b/adaptationsets/video
+D, [2017-03-31T15:38:43.489352 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.491165 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.491232 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"video\"}]}}}"
+I, [2017-03-31T15:38:43.492461 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/7d8b38d5-9f59-4ede-a4f8-d6e822bcba9b/adaptationsets/audio
+D, [2017-03-31T15:38:43.492518 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.501588 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.501646 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"video\"}]}}}"
+I, [2017-03-31T15:38:43.506221 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/7d8b38d5-9f59-4ede-a4f8-d6e822bcba9b/adaptationsets/audio
+D, [2017-03-31T15:38:43.506274 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.508334 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.508379 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"video\"}]}}}"
+I, [2017-03-31T15:38:43.509534 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/7d8b38d5-9f59-4ede-a4f8-d6e822bcba9b/adaptationsets/audio
+D, [2017-03-31T15:38:43.509699 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.512910 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.512974 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"video\"}]}}}"
+I, [2017-03-31T15:38:43.514346 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/7d8b38d5-9f59-4ede-a4f8-d6e822bcba9b/adaptationsets/audio
+D, [2017-03-31T15:38:43.514408 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.517984 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.518084 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"video\"}]}}}"
+I, [2017-03-31T15:38:43.527895 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/period-id/adaptationsets/video
+D, [2017-03-31T15:38:43.527997 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"roles\":[\"ALTERNATE\"]}"
+I, [2017-03-31T15:38:43.543612 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.543671 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"test\"}}}"
+I, [2017-03-31T15:38:43.545567 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/period-id/adaptationsets/video
+D, [2017-03-31T15:38:43.545618 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"roles\":[\"ALTERNATE\"]}"
+I, [2017-03-31T15:38:43.552356 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.552450 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"test\"}}}"
+I, [2017-03-31T15:38:43.553338 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/manifests/dash/manifest-id/periods/period-id/adaptationsets/video
+D, [2017-03-31T15:38:43.553390 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"roles\":[\"ALTERNATE\"]}"
+I, [2017-03-31T15:38:43.555225 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.555262 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"test\"}}}"
+I, [2017-03-31T15:38:43.557046 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs/gcs?limit=100&offset=0
+D, [2017-03-31T15:38:43.557096 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.574961 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.575117 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"type\":\"gcs\",\"name\":\"gcs output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.576957 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs/gcs?limit=100&offset=0
+D, [2017-03-31T15:38:43.577076 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.579471 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.579567 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"type\":\"gcs\",\"name\":\"gcs output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.581302 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs/gcs/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.581480 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.586241 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.586328 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"gcs output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:43.588259 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs/gcs/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.588311 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.590040 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.590079 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"gcs output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:43.590898 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs/gcs/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.590947 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.600998 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.601067 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"gcs output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:43.603415 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/outputs/gcs/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.603466 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.605185 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.605221 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:43.607123 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/outputs/gcs
+D, [2017-03-31T15:38:43.607185 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"gcs output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:43.610847 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.610961 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.613215 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/outputs/gcs
+D, [2017-03-31T15:38:43.613304 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"gcs output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:43.615366 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.615465 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.618525 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/outputs/gcs
+D, [2017-03-31T15:38:43.618618 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"gcs output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:43.621240 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.621495 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.626576 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs?limit=100&offset=0
+D, [2017-03-31T15:38:43.626755 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.641717 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.641793 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"S3\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.643064 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs?limit=100&offset=0
+D, [2017-03-31T15:38:43.643116 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.649710 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.649781 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"S3\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.650956 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs?limit=100&offset=0
+D, [2017-03-31T15:38:43.651015 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.652694 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.652734 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"S3\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.653580 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs?limit=100&offset=0
+D, [2017-03-31T15:38:43.653629 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.655272 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.655312 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"type\":\"S3\",\"name\":\"s3 input\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.659256 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs/s3?limit=100&offset=0
+D, [2017-03-31T15:38:43.659387 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.677450 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.677559 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"type\":\"S3\",\"name\":\"s3 output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.679141 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs/s3?limit=100&offset=0
+D, [2017-03-31T15:38:43.679253 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.682109 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.682244 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"items\":[{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"type\":\"S3\",\"name\":\"s3 output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}]}}}"
+I, [2017-03-31T15:38:43.683940 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs/s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.684038 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.687975 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.688028 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:43.689916 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs/s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.689965 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.700116 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.700184 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:43.701475 #82432]  INFO -- : GET https://api.bitmovin.com/v1/encoding/outputs/s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.701538 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.703274 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.703315 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"7efd17bc-c94e-4c2f-93c0-1affde88fdc2\",\"name\":\"s3 output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}}}"
+I, [2017-03-31T15:38:43.705633 #82432]  INFO -- : DELETE https://api.bitmovin.com/v1/encoding/outputs/s3/7efd17bc-c94e-4c2f-93c0-1affde88fdc2
+D, [2017-03-31T15:38:43.705688 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n"
+I, [2017-03-31T15:38:43.707330 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.707368 #82432] DEBUG -- : "\n\n"
+I, [2017-03-31T15:38:43.710172 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/outputs/s3
+D, [2017-03-31T15:38:43.710387 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:43.714239 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.714333 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.717295 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/outputs/s3
+D, [2017-03-31T15:38:43.717443 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:43.719712 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.719819 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
+I, [2017-03-31T15:38:43.722895 #82432]  INFO -- : POST https://api.bitmovin.com/v1/encoding/outputs/s3
+D, [2017-03-31T15:38:43.722998 #82432] DEBUG -- : "X-Api-Key: {:api_key=>\"test\"}\nX-Api-Client-Version: 0.3.0\nX-Api-Client: bitmovin-ruby\nContent-Type: application/json\nUser-Agent: Faraday v0.11.0\n\n{\"name\":\"s3 output\",\"description\":\"desc\",\"bucketName\":\"bucket\",\"cloudRegion\":\"EU_CENTRAL_1\"}"
+I, [2017-03-31T15:38:43.725575 #82432]  INFO -- : HTTP 200
+D, [2017-03-31T15:38:43.725677 #82432] DEBUG -- : "\n\n{\"data\":{\"result\":{\"id\":\"foo\"}}}"
